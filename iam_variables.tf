@@ -1,7 +1,6 @@
 variable "iam_variables" {
   description = "Dictionary of parameters to overwrite defaults for IAM"
   default = {
-    staging    = {}
     production = {}
   }
 }
